@@ -4,3 +4,22 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
     instance-info-replication-interval-seconds: 5
     initial-instance-info-replication-interval-seconds: 6
+  
+server:
+  port: 8080
+
+#billingEndpoint: http://billing-lean-klipspringer.apps.cumuluslabs.io
+billingEndpoint: http://localhost:8081
+
+spring:
+  application:
+    name: ums
+
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
