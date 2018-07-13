@@ -11,10 +11,6 @@ server:
 #billingEndpoint: http://billing-lean-klipspringer.apps.cumuluslabs.io
 billingEndpoint: http://localhost:8081
 
-spring:
-  application:
-    name: ums
-
 
 security:
   basic:
