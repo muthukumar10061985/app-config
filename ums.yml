@@ -1,8 +1,8 @@
 server:
   port: 8080
 
-#billingEndpoint: http://billing-lean-klipspringer.apps.cumuluslabs.io
-billingEndpoint: http://localhost:8081
+billingEndpoint: http://billing-lean-klipspringer.apps.cumuluslabs.io
+#billingEndpoint: http://localhost:8081
 
 
 security:
